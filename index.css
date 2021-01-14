@@ -64,6 +64,9 @@
   border: dotted 1px black;
   border-radius: 100px;
   margin: .5rem;
+  box-shadow: 
+  -10px -10px 15px rgb(8, 111, 245),
+  10px 10px 15px rgba(70,70,70,.12);
 }
 
 .container > .row > .col[data-clicked="0"] {
@@ -71,9 +74,9 @@
 }
 
 .container > .row > .col.yellow {
-  background-image: linear-gradient(45deg, rgb(197, 161, 2) 30%,rgb(255, 255, 69) 100%);
+  background-image: linear-gradient(45deg, rgb(231, 190, 4) 30%,rgb(255, 255, 69) 100%);
 }
 
 .container > .row > .col.red {
-  background-image: linear-gradient(45deg, rgb(155, 2, 2) 30%, rgb(233, 0, 0) 100%);
+  background-image: linear-gradient(45deg, rgb(182, 4, 4) 30%, rgb(233, 0, 0) 100%);
 }
