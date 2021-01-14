@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 930px;
+  height: 790px;
+  border: 1px solid black;
+  margin: 2rem auto;
+  background-color: rgb(5, 89, 199);
+}
+
+.container .header{
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container .header .header-text {
+  color: white;
+  font-size: 3rem;
+  text-shadow: 1px 1px rgba(189, 9, 9, 0.726), -1px -1px  rgba(189, 9, 9, 0.726), 1px -1px  rgba(189, 9, 9, 0.726), -1px 1px  rgba(189, 9, 9, 0.726);
+  position: relative;
+  background-color: black;
+  padding: .30rem .30rem .30rem .25rem;
+  border-radius: 10rem;
+}
+
+.container .header .header-text .silhouette {
+  width: 100%;
+  height: 100%;
+  border: 3px solid white;
+  padding: .30rem 3.5rem .30rem 1rem;
+  border-radius: 10rem;
+}
+
+.container .header .header-text .text {
+  z-index: 2;
+  position: relative;
+}
+
+.container .header .header-text .header-number {
+  position: absolute;
+  right: 1rem;
+  top: -.9rem;
+  font-size: 5.5rem;
+  transform: rotateZ(20deg);
+  z-index: 1;
+  color:  rgba(189, 9, 9, 0.726);
+  text-shadow: 1px 1px white, -1px -1px white, 1px -1px white, -1px 1px white;
+}
+
+.container > .row {
+  display: flex;
+}
+
+.container > .row > .col {
+  width: 100px;
+  height: 100px;
+  border: dotted 1px black;
+  border-radius: 100px;
+  margin: .5rem;
+}
+
+.container > .row > .col[data-clicked="0"] {
+  background-color: white;
+}
+
+.container > .row > .col.yellow {
+  background-color: yellow;
+}
+
+.container > .row > .col.red {
+  background-color: red;
+}
