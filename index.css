@@ -71,9 +71,9 @@
 }
 
 .container > .row > .col.yellow {
-  background-color: yellow;
+  background-image: linear-gradient(45deg, rgb(197, 161, 2) 30%,rgb(255, 255, 69) 100%);
 }
 
 .container > .row > .col.red {
-  background-color: red;
+  background-image: linear-gradient(45deg, rgb(155, 2, 2) 30%, rgb(233, 0, 0) 100%);
 }
