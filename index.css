@@ -5,11 +5,13 @@
 }
 
 .container {
-  width: 930px;
+  width: 945px;
   height: 790px;
   border: 1px solid black;
   margin: 2rem auto;
   background-color: rgb(5, 89, 199);
+  box-shadow:
+  10px 10px 15px rgba(70,70,70,.5);
 }
 
 .container .header{
@@ -56,6 +58,7 @@
 
 .container > .row {
   display: flex;
+  margin-left: .5rem;
 }
 
 .container > .row > .col {
